@@ -31,7 +31,7 @@ public class EmployerMock {
                 add(
                         buildEmployer(
                                 "Caio",
-                                LocalDate.of(1961, 5, 02),
+                                LocalDate.of(1961, 5, 2),
                                 BigDecimal.valueOf(9836.14),
                                 "Coordenador"
                         )
