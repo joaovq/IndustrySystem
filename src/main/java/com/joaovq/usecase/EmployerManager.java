@@ -23,9 +23,14 @@ public class EmployerManager implements IEmployerManager {
 
     @Override
     public Set<String> getRoles() {
-        return Set.copyOf(
-                industryEmployers.stream().map(Employer::getRole).toList()
-        );
+        try {
+            return Set.copyOf(
+                    industryEmployers.stream().map(Employer::getRole).toList()
+            );
+        } catch (NullPointerException ex) {
+            ex.printStackTrace();
+            return null;
+        }
     }
 
     @Override
