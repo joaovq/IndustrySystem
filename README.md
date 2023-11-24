@@ -1,4 +1,8 @@
 # IndustrySystem
+![Code coverage](https://img.shields.io/badge/coverage-80-orange)
+![Static Badge](https://img.shields.io/badge/Java%20-17-red)
+![Static Badge](https://img.shields.io/badge/JUnit%20-5-green)
+
 Teste prático para vaga de Desenvolvedor PL/SQL e Java
 
 # Requisitos para rodar o projeto
