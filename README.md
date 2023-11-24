@@ -45,13 +45,13 @@ Teste prático para vaga de Desenvolvedor PL/SQL e Java
 
 - Após copiar o projeto para o seu computador, instale todas as dependências:
   
-``` shell
+```shell
   ./mvnw  install
 ```
 
 - Para rodar o projeto:
 
-``` shell
+```shell
     java -jar target/IndustrySystem-1.0-SNAPSHOT.jar
 ```
 
